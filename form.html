@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Doručovací Údaje ESTO</title>
+    <style type="text/css" id="operaUserStyle"></style>
+    <form action="https://formsubmit.co/el/bewobi" method="POST">
+</head>
+<body>
+    <div class="container">
+        <header>Doručovací Údaje | ESTO</header>
+        <form action="#">
+            <div class="form first">
+                <div class="details.personal">
+                    <span class="title">Osobní Informace</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Celé Jméno</label>
+                            <input type="text" placeholder="Zadejte Vaše Jméno" aria-placeholder="Zadejte Vaše Jméno" required aria-required>
+                        </div>
+                        <div class="input-field">
+                            <label>Město</label>
+                            <input type="text" placeholder="Zadejte Vaše Město" aria-placeholder="Zadejte Vaše město" required aria-required>
+                        </div>
+                        <div class="input-field">
+                            <label>Adresa</label>
+                            <input type="text" placeholder="Zadejte Vaši Adresu" aria-placeholder="Zadejte Vaši Adresu" required aria-required>
+                        </div>
+                        <!--Druhá část-->
+                        <div class="input-field">
+                            <label>Telefonní Číslo</label>
+                            <input type="number" placeholder="Zadejte Vaše Číslo" aria-placeholder="Zadejte Vaše Číslo" required aria-required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Zadejte Váš Email" aria-placeholder="Zadejte Váš Email" required aria-required>
+                        </div>
+                        <div class="input-field">
+                            <label>Vyberte přepravní službu</label>
+                            <select name="Couriers" required aria-required style="height: 42px;">
+                                <option value="Placeholder" selected disabled aria-selected aria-disabled>Přepravní služba</option>
+                                <option value="Zásilkovna">Zásilkovna</option>
+                                <option value="Balíkovna">Balíkovna</option>
+                                <option value="DPP">DPP</option>
+                            </select>
+                        </div>
+                        <ul>
+                            <br>
+                            <hr>
+                            
+                            <h1 style="margin-top: 5px;">Speciální požadavky</h1>
+                            <div class="checkbox">
+                                <label style="margin-top: 10px;">Zabalit objednávku na video!</label>
+                                <input type="checkbox" style="margin-top: 10px; margin-left: 10px;">
+                            </div>
+                            <div class="checkbox">
+                                <label style="margin-top: 10px;">Dárkové Zabalení</label> 
+                                <input type="checkbox" style="margin-top: 10px; margin-left: 10px;">
+                            </div>
+                            <div class="price"><p>+30CZK,-</p></div>
+                            <button class="button-submit" role="button" style="margin-top: 20px;">Zadat Objednávu</button>
+                        </ul>
+                   
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+<script src="form.js"></script>
+</html>
